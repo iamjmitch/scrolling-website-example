@@ -1,5 +1,7 @@
 # Sliding website image example
 
+![Hover Effect Example](https://github.com/iamjmitch/scrolling-website-example/blob/master/example.gif?raw=true)
+
 Vanilla JS script test to emulate scrolling a website when hovering over a picture
 
 **_background-color_** can be set via the CSS and is not hardcoded into the image.
@@ -12,4 +14,3 @@ Vanilla JS script test to emulate scrolling a website when hovering over a pictu
 
 **_see example_** [Here.](https://elegant-ardinghelli-98236a.netlify.app/)
 
-![Hover Effect Example](https://github.com/iamjmitch/scrolling-website-example/blob/master/example.gif?raw=true)
