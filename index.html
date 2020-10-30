@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sliding test</title>
+    <style>
+      .outterC {
+        background: orange;
+        padding: 20px;
+        max-width: 600px;
+        position: relative;
+        cursor: pointer;
+      }
+
+      .innerC {
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+      }
+      .innerC .outter {
+        width: 100%;
+        height: auto;
+        z-index: 1;
+        position: relative;
+      }
+      .innerImg {
+        background: blue;
+        width: 76%;
+        height: 85%;
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 0;
+        overflow: hidden;
+      }
+      .inner {
+        width: 100%;
+        min-height: 100%;
+        margin-top: 1px;
+        transition: 1s linear;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outterC" onmouseover="slideImage()" onmouseout="returnSlide()">
+      <div class="innerC">
+        <div class="innerImg">
+          <img class="inner" src="./in.jpg" alt="" />
+        </div>
+        <img class="outter" src="./out.png" alt="" />
+      </div>
+    </div>
+    <script>
+      const slidingImage = document.querySelector('.inner');
+      const slidingWindow = document.querySelector('.innerImg');
+
+      function slideImage() {
+        slidingImage.style.transition = '0.7s linear';
+        var windowHeight = slidingWindow.clientHeight;
+        var imageHeight = slidingImage.clientHeight;
+        slidingImage.style.marginTop = `${windowHeight - imageHeight}px`;
+      }
+      function returnSlide() {
+        slidingImage.style.transition = '0.1s linear';
+        slidingImage.style.marginTop = '0px';
+      }
+    </script>
+  </body>
+</html>
