@@ -8,9 +8,9 @@ Vanilla JS script test to emulate scrolling a website when hovering over a pictu
 
 **_mobile responsive_**. some minor positioning tweaks may be needed if scaling alot higher than demo width.
 
-**_onmouseover_** runs a script to calculate the pixel height difference between the 'screen viewing window' and the image height and adjusts the margin of the image with a transition effect to emulate scrolling.
+**_onmouseover_** runs a script to calculate the difference in pixel height between the scrolling image and and viewport emulating the laptop screen. That pixel difference is then used to adjust the margin of the scrolling image to emulate the effect of a scrolling website..
 
-**_onmouseout_** runs a sript to return image to its original position. Also speeds up the transition from 0.7s to 0.1s for UX.
+**_onmouseout_** runs a script to return the scrolling image to its original position. Also speeds up the transition CSS property from 0.7s to 0.1s for better user experience.
 
 **_see example_** [Here.](https://elegant-ardinghelli-98236a.netlify.app/)
 
