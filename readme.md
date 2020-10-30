@@ -1,4 +1,4 @@
-# Sliding website image example
+# Scroll on hover website image example
 
 ![Hover Effect Example](https://github.com/iamjmitch/scrolling-website-example/blob/master/example.gif?raw=true)
 
