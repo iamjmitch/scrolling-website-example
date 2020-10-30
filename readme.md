@@ -2,7 +2,9 @@
 
 Vanilla JS script test to emulate scrolling a website when hovering over a picture
 
-**_Background-color_** can be set via the CSS and is not hardcoded into the image.
+**_background-color_** can be set via the CSS and is not hardcoded into the image.
+
+**_mobile responsive_**. some minor positioning tweaks may be needed if scaling alot higher than demo width.
 
 **_onmouseover_** runs a script to calulate the pixel difference between the viewing window and the image height and adjusts the margin of the image with a transition effect to emulate scrolling.
 
