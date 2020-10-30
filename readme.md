@@ -12,5 +12,5 @@ Vanilla JS script test to emulate scrolling a website when hovering over a pictu
 
 **_onmouseout_** runs a script to return the scrolling image to its original position. Also speeds up the transition CSS property from 0.7s to 0.1s for better user experience.
 
-**_see example_** [Here.](https://elegant-ardinghelli-98236a.netlify.app/)
+**_see example_** [Here.](https://codepen.io/iamjmitch/pen/zYBWoLY)
 
