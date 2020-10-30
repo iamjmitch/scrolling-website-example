@@ -6,4 +6,6 @@ Vanilla JS script test to emulate scrolling a website when hovering over a pictu
 
 **_onmouseout_** runs a sript to return image to its original position. Also speeds up the transition from 0.7s to 0.1s for UX.
 
+![Hover Effect Example](https://github.com/iamjmitch/scrolling-website-example/blob/master/example.gif?raw=true)
+
 see example [Here](https://elegant-ardinghelli-98236a.netlify.app/)
